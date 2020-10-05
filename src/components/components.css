@@ -1,0 +1,65 @@
+.component__user{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+.component__user-avatar{
+    border-radius: 25px;
+    margin-right: 12px;
+}
+.component__user-info-email{
+    margin-top: 8px;
+}
+.gallery__user-info{
+    color: var(--black);
+}
+.component__user:hover .gallery__user-info{
+    color: var(--primary);
+}
+
+.component__album{
+    padding: 12px;
+    position: relative;
+}
+.component__album-cover{
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.component__album-cover-4 .component__photo{
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+}
+.component__album-cover-count-photos{
+    position: absolute;
+    top: 173px;
+    left: 12px;
+    background: #fff;
+    color: var(--primary);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0 6px 0 0;
+    padding: 12px;
+}
+.component__album-info{
+    margin-top: 12px;
+}
+.component__album-info-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.component__photo{
+
+}
+.component__photo-url{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    vertical-align: top;
+}
